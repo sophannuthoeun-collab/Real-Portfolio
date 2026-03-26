@@ -69,7 +69,7 @@ export function Header() {
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent font-display text-lg text-white shadow-lg shadow-accent/30">
               P
             </span>
-            <span className="hidden sm:inline tracking-wide">Portfolio</span>
+            <span className="hidden sm:inline tracking-wide">{siteName}</span>
           </a>
 
           {/* Desktop nav */}
